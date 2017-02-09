@@ -1,0 +1,150 @@
+# This file was produced by the NASA Exoplanet Archive  http://exoplanetarchive.ipac.caltech.edu
+# Wed Oct 26 10:32:51 2016
+#
+# COLUMN pl_hostname:    Host Name
+# COLUMN pl_letter:      Planet Letter
+# COLUMN pl_discmethod:  Discovery Method
+# COLUMN pl_pnum:        Number of Planets in System
+# COLUMN pl_orbper:      Orbital Period [days]
+# COLUMN pl_orbsmax:     Orbit Semi-Major Axis [AU]
+# COLUMN pl_orbeccen:    Eccentricity
+# COLUMN pl_orbincl:     Inclination [deg]
+# COLUMN pl_bmassj:      Planet Mass or M*sin(i)[Jupiter mass]
+# COLUMN pl_bmassprov:   Planet Mass or M*sin(i) Provenance
+# COLUMN pl_radj:        Planet Radius [Jupiter radii]
+# COLUMN pl_dens:        Planet Density [g/cm**3]
+# COLUMN pl_ttvflag:     TTV Flag
+# COLUMN pl_kepflag:     Kepler Field Flag
+# COLUMN pl_k2flag:      K2 Mission Flag
+# COLUMN pl_nnotes:      Number of Notes
+# COLUMN ra_str:         RA [sexagesimal]
+# COLUMN ra:             RA [sexagesimal]
+# COLUMN dec_str:        Dec [sexagesimal]
+# COLUMN dec:            Dec [sexagesimal]
+# COLUMN st_dist:        Distance [pc]
+# COLUMN st_optmag:      Optical Magnitude [mag]
+# COLUMN st_optband:     Optical Magnitude Band
+# COLUMN st_teff:        Effective Temperature [K]
+# COLUMN st_mass:        Stellar Mass [Solar mass]
+# COLUMN st_rad:         Stellar Radius [Solar radii]
+# COLUMN rowupdate:      Date of Last Update
+# COLUMN pl_name:        Planet Name
+# COLUMN pl_tranflag:    Planet Transit Flag
+# COLUMN pl_rvflag:      Planet RV Flag
+# COLUMN pl_imgflag:     Planet Imaging Flag
+# COLUMN pl_astflag:     Planet Astrometry Flag
+# COLUMN pl_omflag:      Planet Orbital Modulation Flag
+# COLUMN pl_cbflag:      Planet Circumbinary Flag
+# COLUMN pl_orbtper:     Time of Periastron [days]
+# COLUMN pl_orblper:     Long. of Periastron [deg]
+# COLUMN pl_rvamp:       Radial Velocity Amplitude [m/s]
+# COLUMN pl_eqt:         Equilibrium Temperature [K]
+# COLUMN pl_insol:       Insolation Flux [Earth flux]
+# COLUMN pl_massj:       Planet Mass [Jupiter mass]
+# COLUMN pl_msinij:      Planet M*sin(i) [Jupiter mass]
+# COLUMN pl_masse:       Planet Mass [Earth mass]
+# COLUMN pl_msinie:      Planet M*sin(i) [Earth mass]
+# COLUMN pl_bmasse:      Planet Mass or M*sin(i) [Earth mass]
+# COLUMN pl_rade:        Planet Radius [Earth radii]
+# COLUMN pl_rads:        Planet Radius [Solar radii]
+# COLUMN pl_trandep:     Transit Depth [percent]
+# COLUMN pl_trandur:     Transit Duration [days]
+# COLUMN pl_tranmid:     Transit Midpoint [days]
+# COLUMN pl_tsystemref:  Time System Reference
+# COLUMN pl_imppar:      Impact Parameter
+# COLUMN pl_occdep:      Occultation Depth [percentage]
+# COLUMN pl_ratdor:      Ratio of Distance to Stellar Radius
+# COLUMN pl_ratror:      Ratio of Planet to Stellar Radius
+# COLUMN pl_def_reflink: Default Reference
+# COLUMN pl_disc:        Year of Discovery
+# COLUMN pl_disc_reflink: Discovery Reference
+# COLUMN pl_locale:      Discovery Locale
+# COLUMN pl_facility:    Discovery Facility
+# COLUMN pl_telescope:   Discovery Telescope
+# COLUMN pl_instrument:  Discovery Instrument
+# COLUMN pl_status:      Status
+# COLUMN pl_mnum:        Number of Moons in System
+# COLUMN pl_st_npar:     Number of Stellar and Planet Parameters
+# COLUMN pl_st_nref:     Number of Stellar and Planet References
+# COLUMN pl_pelink:      Link to Exoplanet Encyclopaedia
+# COLUMN pl_edelink:     Link to Exoplanet Data Explorer
+# COLUMN pl_publ_date:   Publication Date
+# COLUMN hd_name:        HD Name
+# COLUMN hip_name:       HIP Name
+# COLUMN st_rah:         RA [hrs]
+# COLUMN st_glon:        Galactic Longitude [deg]
+# COLUMN st_glat:        Galactic Latitude [deg]
+# COLUMN st_elon:        Ecliptic Longitude [deg]
+# COLUMN st_elat:        Ecliptic Latitude [deg]
+# COLUMN st_plx:         Parallax [mas]
+# COLUMN st_pmra:        Proper Motion (RA) [mas/yr]
+# COLUMN st_pmdec:       Proper Motion (Dec) [mas/yr]
+# COLUMN st_pm:          Total Proper Motion [mas/yr]
+# COLUMN st_radv:        Radial Velocity [km/s]
+# COLUMN st_sp:          Spectral Type
+# COLUMN st_spstr:       Spectral Type
+# COLUMN st_logg:        Stellar Surface Gravity [log10(cm/s**2)]
+# COLUMN st_lum:         Stellar Luminosity [log(Solar)]
+# COLUMN st_dens:        Stellar Density [g/cm**3]
+# COLUMN st_metfe:       Stellar Metallicity [dex]
+# COLUMN st_metratio:    Metallicity Ratio
+# COLUMN st_age:         Stellar Age [Gyr]
+# COLUMN st_vsini:       Rot. Velocity V*sin(i) [km/s]
+# COLUMN st_acts:        Stellar Activity S-index
+# COLUMN st_actr:        Stellar Activity log(RHK)
+# COLUMN st_actlx:       X-ray Activity log(L<sub>x</sub>)
+# COLUMN swasp_id:       SWASP Identifier
+# COLUMN st_nts:         Number of Time Series
+# COLUMN st_nplc:        Number of Planet Transit Light Curves
+# COLUMN st_nglc:        Number of General Light Curves
+# COLUMN st_nrvc:        Number of Radial Velocity Time Series
+# COLUMN st_naxa:        Number of Amateur Light Curves
+# COLUMN st_nimg:        Number of Images
+# COLUMN st_nspec:       Number of Spectra
+# COLUMN st_uj:          U-band (Johnson) [mag]
+# COLUMN st_vj:          V-band (Johnson) [mag]
+# COLUMN st_bj:          B-band (Johnson) [mag]
+# COLUMN st_rc:          R-band (Cousins) [mag]
+# COLUMN st_ic:          I-band (Cousins) [mag]
+# COLUMN st_j:           J-band (2MASS) [mag]
+# COLUMN st_h:           H-band (2MASS) [mag]
+# COLUMN st_k:           Ks-band (2MASS) [mag]
+# COLUMN st_wise1:       WISE 3.4um [mag]
+# COLUMN st_wise2:       WISE 4.6um [mag]
+# COLUMN st_wise3:       WISE 12.um [mag]
+# COLUMN st_wise4:       WISE 22.um [mag]
+# COLUMN st_irac1:       IRAC 3.6um [mag]
+# COLUMN st_irac2:       IRAC 4.5um [mag]
+# COLUMN st_irac3:       IRAC 5.8um [mag]
+# COLUMN st_irac4:       IRAC 8.0um [mag]
+# COLUMN st_mips1:       MIPS 24um [mag]
+# COLUMN st_mips2:       MIPS 70um [mag]
+# COLUMN st_mips3:       MIPS 160um [mag]
+# COLUMN st_iras1:       IRAS 12um Flux [Jy]
+# COLUMN st_iras2:       IRAS 25um Flux [Jy]
+# COLUMN st_iras3:       IRAS 60um Flux [Jy]
+# COLUMN st_iras4:       IRAS 100um Flux [Jy]
+# COLUMN st_photn:       Number of Photometry Measurements
+# COLUMN st_umbj:        U-B (Johnson) [mag]
+# COLUMN st_bmvj:        B-V (Johnson) [mag]
+# COLUMN st_vjmic:       V-I (Johnson-Cousins) [mag]
+# COLUMN st_vjmrc:       V-R (Johnson-Cousins) [mag]
+# COLUMN st_jmh2:        J-H (2MASS) [mag]
+# COLUMN st_hmk2:        H-Ks (2MASS) [mag]
+# COLUMN st_jmk2:        J-Ks (2MASS) [mag]
+# COLUMN st_bmy:         b-y (Stromgren) [mag]
+# COLUMN st_m1:          m1 (Stromgren) [mag]
+# COLUMN st_c1:          c1 (Stromgren) [mag]
+# COLUMN st_colorn:      Number of Color Measurements
+#
+rowid	pl_hostname	pl_letter	pl_discmethod	pl_pnum	pl_orbper	pl_orbsmax	pl_orbeccen	pl_orbincl	pl_bmassj	pl_bmassprov	pl_radj	pl_dens	pl_ttvflag	pl_kepflag	pl_k2flag	pl_nnotes	ra_str	ra	dec_str	dec	st_dist	st_optmag	st_optband	st_teff	st_mass	st_rad	rowupdate	pl_name	pl_tranflag	pl_rvflag	pl_imgflag	pl_astflag	pl_omflag	pl_cbflag	pl_orbtper	pl_orblper	pl_rvamp	pl_eqt	pl_insol	pl_massj	pl_msinij	pl_masse	pl_msinie	pl_bmasse	pl_rade	pl_rads	pl_trandep	pl_trandur	pl_tranmid	pl_tsystemref	pl_imppar	pl_occdep	pl_ratdor	pl_ratror	pl_def_reflink	pl_disc	pl_disc_reflink	pl_locale	pl_facility	pl_telescope	pl_instrument	pl_status	pl_mnum	pl_st_npar	pl_st_nref	pl_pelink	pl_edelink	pl_publ_date	hd_name	hip_name	st_rah	st_glon	st_glat	st_elon	st_elat	st_plx	st_pmra	st_pmdec	st_pm	st_radv	st_sp	st_spstr	st_logg	st_lum	st_dens	st_metfe	st_metratio	st_age	st_vsini	st_acts	st_actr	st_actlx	swasp_id	st_nts	st_nplc	st_nglc	st_nrvc	st_naxa	st_nimg	st_nspec	st_uj	st_vj	st_bj	st_rc	st_ic	st_j	st_h	st_k	st_wise1	st_wise2	st_wise3	st_wise4	st_irac1	st_irac2	st_irac3	st_irac4	st_mips1	st_mips2	st_mips3	st_iras1	st_iras2	st_iras3	st_iras4	st_photn	st_umbj	st_bmvj	st_vjmic	st_vjmrc	st_jmh2	st_hmk2	st_jmk2	st_bmy	st_m1	st_c1	st_colorn
+1	11 Com	b	Radial Velocity	1	326.03000000	1.290000	0.231000		19.40000	Msini			0	0	0	0	12h20m43.03s	185.179276	+17d47m34.3s	17.792868	110.62	4.740	V (Johnson)	4742.00	2.70	19.00	2014-05-14	11 Com b	0	1	0	0	0	0	2452899.600000	94.8000	302.800				19.40000		6165.60000	6165.60000											<a href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2008ApJ...672..553L target=ref> Liu et al. 2008 </a>	2007	<a href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2008ApJ...672..553L target=ref> Liu et al. 2008 </a>	Ground	Xinglong Station	2.16 m Telescope	Coude Echelle Spectrograph	3	0	24	18	http://exoplanet.eu/catalog/11_com_b/	http://exoplanets.org/detail/11_Com_b	2008-01	HD 107383	HIP 60202	12.34528503	264.140892	78.280522	177.422388	18.333765	9.04	-108.800	90.500	141.500		5.00	K0 III	2.31	2.243		-0.350	[Fe/H]		1.2000					3	0	1	2	0	3	0	6.540	4.740	5.750			2.943	2.484	2.282	0.639	0.732	2.358	2.270								1.829e+00	1.867e+00	1.184e+00	-9.160e-01	19	0.790	1.010			0.459	0.202	0.661				7
+2	11 UMi	b	Radial Velocity	1	516.22000000	1.540000	0.080000		10.50000	Msini			0	0	0	0	15h17m05.89s	229.274536	+71d49m26.0s	71.823898	119.47	5.016	V (Johnson)	4340.00	1.80	24.08	2014-05-14	11 UMi b	0	1	0	0	0	0	2452861.040000	117.6300	189.700				10.50000		3337.07000	3337.07000											<a href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2009A&A...505.1311D target=ref> Dollinger et al. 2009 </a>	2009	<a href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2009A&A...505.1311D target=ref> Dollinger et al. 2009 </a>	Ground	Thueringer Landessternwarte Tautenburg	2.0 m Alfred Jensch Telescope	Coude Echelle Spectrograph	3	0	20	16	http://exoplanet.eu/catalog/11_umi_b/	http://exoplanets.org/detail/11_UMi_b	2009-10	HD 136726	HIP 74793	15.28496908	108.718982	41.044516	141.647144	74.958184	8.37	6.100	8.300	10.300		5.40	K4 III	1.60			0.040	[Fe/H]	1.560	1.5000					2	0	1	1	0	3	0		5.016	6.385			2.876	2.091	1.939	-0.290	0.143	1.894	1.787								1.339e+00	1.351e+00	1.184e+00	-9.160e-01	16		1.369			0.785	0.152	0.937				5
+3	14 And	b	Radial Velocity	1	185.84000000	0.830000	0.000000		4.80000	Msini			0	0	0	0	23h31m17.42s	352.822571	+39d14m10.3s	39.236198	76.39			4813.00	2.20	11.00	2014-05-14	14 And b	0	1	0	0	0	0	2452861.400000	0.0000	100.000				4.80000		1525.50000	1525.50000											<a href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2008PASJ...60.1317S target=ref> Sato et al. 2008 </a>	2008	<a href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2008PASJ...60.1317S target=ref> Sato et al. 2008 </a>	Ground	Okayama Astrophysical Observatory	1.88 m Telescope	HIDES Echelle Spectrograph	3	0	25	21	http://exoplanet.eu/catalog/14_and_b/	http://exoplanets.org/detail/14_And_b	2008-12	HD 221345	HIP 116076	23.52150472	106.411558	-21.050610	11.962116	38.229937	13.09	287.700	-83.600	299.600		4.80	G8 III	2.63	1.763		-0.240	[Fe/H]		2.6000	0.095				2	0	1	1	0	3	0	7.100		6.240			3.019	2.608	2.331	1.592	2.545	2.719	2.719								2.198e+00	2.317e+00	1.184e+00	-9.160e-01	20	0.860	1.020			0.411	0.277	0.688				7
+4	14 Her	b	Radial Velocity	1	1773.40000000	2.770000	0.369000		4.64000	Msini			0	0	0	0	16h10m24.31s	242.601303	+43d49m03.5s	43.817646	18.15	6.610	V (Johnson)	5311.00	0.90		2014-05-14	14 Her b	0	1	0	0	0	0	2451372.700000	22.6000	90.000				4.64000		1474.67000	1474.67000											<a href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2007ApJ...654..625W target=ref> Wittenmyer et al. 2007 </a>	2002	<a href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2003ApJ...582..455B target=ref> Butler et al. 2003 </a>	Ground	W. M. Keck Observatory	10 m Keck I Telescope	HIRES Spectrometer	3	0	62	35	http://exoplanet.eu/catalog/14_her_b/	http://exoplanets.org/detail/14_Her_b	2003-01	HD 145675	HIP 79248	16.17342021	69.170376	46.944999	223.248728	62.879798	55.11	132.600	-297.000	325.300		5.00	K0 V				0.430	[Fe/H]		1.6000	0.161	-5.060			5	0	1	4	0	4	1		6.610	7.490			5.158	4.803	4.714	4.676	4.543	4.721	4.674					4.729e+00	4.624e+00		4.213e+00	3.575e+00	1.184e+00	-9.160e-01	24		0.880			0.355	0.089	0.444	0.537	0.366	0.438	9
+5	16 Cyg B	b	Radial Velocity	1	798.50000000	1.681000	0.681000		1.68000	Msini			0	0	0	0	19h41m51.97s	295.466553	+50d31m03.1s	50.517525	21.41	6.250	V (Johnson)	5674.00	0.99		2015-09-10	16 Cyg B b	0	1	0	0	0	0	2446549.100000	85.8000	50.500				1.68000		533.95440	533.95440						JD					<a href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2006ApJ...646..505B target=ref> Butler et al. 2006 </a>	1996	<a href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1997ApJ...483..457C target=ref> Cochran et al. 1997 </a>	Ground	Multiple Observatories	Multiple Telescopes	Multiple Instruments	3	0	60	38	http://exoplanet.eu/catalog/16_cyg_b_b/	http://exoplanets.org/detail/16_Cyg_B_b	1997-07	HD 186427	HIP 96901	19.69777018	83.336460	13.204352	321.218050	69.468372		-132.000	-163.000	209.700	-28.10	4.25	G2.5 V	4.36			0.038	[Fe/H]		2.1800	0.148	-5.080			5	0	1	4	0	4	3	7.070	6.250	6.910			4.993	4.695	4.651	4.773	4.568	4.926	4.713					4.694e+00	4.362e+00						27	0.210	0.660			0.298	0.044	0.342	0.418	0.222	0.351	17
+6	18 Del	b	Radial Velocity	1	993.30000000	2.600000	0.080000		10.30000	Msini			0	0	0	0	20h58m25.94s	314.608063	+10d50m21.4s	10.839286	73.10			4979.00	2.30	8.50	2014-05-14	18 Del b	0	1	0	0	0	0	2451672.000000	166.1000	119.400				10.30000		3273.50000	3273.50000											<a href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2008PASJ...60..539S target=ref> Sato et al. 2008 </a>	2008	<a href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2008PASJ...60..539S target=ref> Sato et al. 2008 </a>	Ground	Okayama Astrophysical Observatory	1.88 m Telescope	HIDES Echelle Spectrograph	3	0	24	19	http://exoplanet.eu/catalog/18_del_b/	http://exoplanets.org/detail/18_Del_b	2008-06	HD 199665	HIP 103527	20.97387085	58.691434	-21.974824	320.591213	26.786858	13.68	-49.500	-35.100	60.700		4.60	G6 III	2.82	1.602		-0.052	[Fe/H]							2	0	1	1	0	3	0			6.430			4.032	3.440	3.366	3.370	2.931	3.355	3.308								2.911e+00	2.852e+00	1.184e+00	-9.560e-01	17		0.924			0.592	0.074	0.666				5
+7	1RXS J160929.1-210524	b	Imaging	1		330.000000			8.00000	Mass			0	0	0	0	16h09m30.30s	242.376268	-21d04m58.9s	-21.083036	145.00			4060.00	0.85		2015-04-01	1RXS J160929.1-210524 b	0	0	1	0	0	0				1700		8.00000		3000.00000		3000.00000											<a href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2015ApJ...802...61L target=ref>Lachapelle et al. 2015</a>	2008	<a href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2008ApJ...689L.153L target=ref> Lafreniere et al. 2008 </a>	Ground	Gemini Observatory	8.19 m Gemini North Telescope	NIRI Camera	3	0	22	7	http://exoplanet.eu/catalog/1rxs1609_b/		2008-12			16.15841787	352.890560	22.030427	244.365684	-0.068410						5.70	K7 V		-0.370				0.005						0	0	0	0	0	3	0						9.820	9.121	8.916	8.794	8.790	8.684	8.531												7					0.699	0.205	0.904				3
+8	24 Sex	b	Radial Velocity	2	452.80000000	1.333000	0.090000		1.99000	Msini			0	0	0	0	10h23m28.37s	155.868210	-00d54m08.1s	-0.902244	74.79	6.441	V (Johnson)	5098.00	1.54	4.90	2014-05-14	24 Sex b	0	1	0	0	0	0	2454762.000000	9.2000	40.000				1.99000		632.46000	632.46000											<a href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2010arXiv1007.4552J target=ref> Johnson et al. 2010 </a>	2010	<a href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2010arXiv1007.4552J target=ref> Johnson et al. 2010 </a>	Ground	Lick Observatory	3.0 m C. Donald Shane Telescope	Hamilton Echelle Spectrograph	3	0	17	16	http://exoplanet.eu/catalog/24_sex_b/	http://exoplanets.org/detail/24_Sex_b	2011-01	HD 90043	HIP 50887	10.39121399	245.085309	44.715734	157.993590	-10.198148	13.37	65.700	-35.100	74.500		5.00	K0 IV	3.50	1.164		-0.030	[Fe/H]	2.700	2.7700					3	0	1	2	0	3	1		6.441	7.399			5.292	4.486	4.285	4.094	3.598	4.254	4.201								3.803e+00	2.555e+00	1.102e+00	-9.160e-01	16		0.958			0.806	0.201	1.007	0.572	0.342	0.427	8
+9	24 Sex	c	Radial Velocity	2	883.00000000	2.080000	0.290000		0.86000	Msini			0	0	0	0	10h23m28.37s	155.868210	-00d54m08.1s	-0.902244	74.79	6.441	V (Johnson)	5098.00	1.54	4.90	2014-05-14	24 Sex c	0	1	0	0	0	0	2454930.000000	220.5000	14.500				0.86000		273.32000	273.32000											<a href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2010arXiv1007.4552J target=ref> Johnson et al. 2010 </a>	2010	<a href=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2010arXiv1007.4552J target=ref> Johnson et al. 2010 </a>	Ground	Lick Observatory	3.0 m C. Donald Shane Telescope	Hamilton Echelle Spectrograph	3	0	17	16	http://exoplanet.eu/catalog/24_sex_c/	http://exoplanets.org/detail/24_Sex_c	2011-01	HD 90043	HIP 50887	10.39121399	245.085309	44.715734	157.993590	-10.198148	13.37	65.700	-35.100	74.500		5.00	K0 IV	3.50	1.164		-0.030	[Fe/H]	2.700	2.7700					3	0	1	2	0	3	1		6.441	7.399			5.292	4.486	4.285	4.094	3.598	4.254	4.201								3.803e+00	2.555e+00	1.102e+00	-9.160e-01	16		0.958			0.806	0.201	1.007	0.572	0.342	0.427	8
+10	2MASS J01225093-2439505	b	Imaging	1		52.000000			24.50000	Mass			0	0	0	0	01h22m50.94s	20.712243	-24d39m50.6s	-24.664049	36.00	14.240	V (Johnson)	3530.00	0.40		2014-05-14	2MASS J01225093-2439505 b	0	0	1	0	0	0						24.50000		7786.50000		7786.50000											<a href=http://adsabs.harvard.edu/abs/2013ApJ...774...55B target=ref> Bowler et al. 2013 </a>	2013	<a href=http://adsabs.harvard.edu/abs/2013ApJ...774...55B target=ref> Bowler et al. 2013 </a>	Ground	W. M. Keck Observatory	10 m Keck II Telescope	NIRC2 Camera	3	0	7	5	http://exoplanet.eu/catalog/2m_0122-2439_b/		2013-08			1.38081620	195.448768	-82.520165	8.622413	-30.711243					9.60	6.35	M3.5 V		-1.720				0.120						0	0	0	0	0	3	0		14.240				10.084	9.470	9.198	9.022	8.857	8.747	8.298												8					0.614	0.272	0.886				3

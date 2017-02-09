@@ -1,0 +1,28 @@
+#ALL
+SELECT pl_name,pl_bmasse,pl_rade,
+pl_orbeccen,pl_orbper,pl_orbsmax,
+st_teff,st_rad,st_mass,
+st_sp,st_spstr, 
+pl_eqt,pl_insol
+FROM PlanetsFull WHERE pl_name NOTNULL
+AND pl_bmasse NOTNULL AND pl_rade NOTNULL
+AND (st_sp NOTNULL OR st_teff NOTNULL OR st_spstr NOTNULL)
+AND pl_eqt NOTNULL
+ORDER BY pl_eqt 
+
+#HABITABLE
+SELECT pl_name,pl_bmasse,pl_rade,
+pl_orbeccen,pl_orbper,pl_orbsmax,
+st_teff,st_rad,st_mass,
+st_sp,st_spstr, 
+pl_eqt,pl_insol
+FROM PlanetsFull WHERE pl_name NOTNULL
+AND pl_bmasse>0.2 AND pl_bmasse<10.0 
+AND pl_rade>0.2 AND pl_rade<3.0
+AND ((st_sp > 3.0 AND st_sp < 6.0) OR st_teff NOTNULL 
+OR st_spstr LIKE "%M%" OR st_spstr LIKE "%K%" OR 
+st_spstr LIKE "%G%" OR st_spstr LIKE "%F%")
+AND pl_eqt > 200.0 AND pl_eqt < 600.0
+ORDER BY pl_eqt 
+
+
