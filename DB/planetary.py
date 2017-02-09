@@ -1,4 +1,5 @@
 from PlanetaryDB.planetarydb import *
+from PlanetaryDB.dataProcess import *
 import numpy as np
 from sklearn.preprocessing import scale
 from sklearn.svm import SVC
