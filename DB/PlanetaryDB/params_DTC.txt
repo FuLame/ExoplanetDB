@@ -1,0 +1,1 @@
+{'presort': False, 'splitter': 'random', 'max_leaf_nodes': None, 'min_samples_leaf': 1, 'min_samples_split': 6, 'min_weight_fraction_leaf': 0.0, 'criterion': 'entropy', 'random_state': None, 'min_impurity_split': 1e-07, 'max_features': None, 'max_depth': None, 'class_weight': None}

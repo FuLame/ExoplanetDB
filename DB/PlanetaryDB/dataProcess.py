@@ -2,13 +2,14 @@ import numpy as np
 from sklearn.preprocessing import scale
 from random import random
 
-def normalize(X):
+def normalize(X, mu=None, variance=None):
     x = np.array(X[:])
-    mu= np.mean(x,0)
-    print mu
-    scale = np.amax(x,0) - np.amin(x,0)
-    print scale
-    return (x - mu)/scale
+    if mu is None or variance is None:
+        mu = np.mean(x,0)
+        variance = np.amax(x,0) - np.amin(x,0)
+        return (x - mu)/variance, mu, variance
+    else:
+        return (x - mu)/variance
 
 
 def planet_eval(features):
